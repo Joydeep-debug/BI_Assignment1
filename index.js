@@ -28,6 +28,7 @@ initializeDatabase();
 //                 dressCode: meetupData.dressCode,
 //                 ageRestrictions: meetupData.ageRestrictions,
 //                 eventTags: meetupData.eventTags,
+//                 startTime: meetupData.startTime,
 //                 dateAndTime: meetupData.dateAndTime,
 //                 eventVenue: meetupData.eventVenue,
 //                 eventAddress: meetupData.eventAddress,
