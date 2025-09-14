@@ -13,38 +13,38 @@ const Meetup = require("./models/meetup.models");
 app.use(express.json());
 initializeDatabase();
 
-// const jsonData = fs.readFileSync('meetup.json', 'utf-8');
-// const meetupsData = JSON.parse(jsonData);
+const jsonData = fs.readFileSync('meetup.json', 'utf-8');
+const meetupsData = JSON.parse(jsonData);
 
-// function seedData() {
-//     try{
-//         for (const meetupData of meetupsData) {
-//             const newMeetup = new Meetup({
-//                 title: meetupData.title,
-//                 host: meetupData.host,
-//                 photos: meetupData.photos,
-//                 typeOfEvent: meetupData.typeOfEvent,
-//                 eventDescription: meetupData.eventDescription,
-//                 dressCode: meetupData.dressCode,
-//                 ageRestrictions: meetupData.ageRestrictions,
-//                 eventTags: meetupData.eventTags,
-//                 startTime: meetupData.startTime,
-//                 dateAndTime: meetupData.dateAndTime,
-//                 eventVenue: meetupData.eventVenue,
-//                 eventAddress: meetupData.eventAddress,
-//                 eventPricing: meetupData.eventPricing,
-//                 speakers: meetupData.speakers
-//             });
+function seedData() {
+    try{
+        for (const meetupData of meetupsData) {
+            const newMeetup = new Meetup({
+                title: meetupData.title,
+                host: meetupData.host,
+                photos: meetupData.photos,
+                typeOfEvent: meetupData.typeOfEvent,
+                eventDescription: meetupData.eventDescription,
+                dressCode: meetupData.dressCode,
+                ageRestrictions: meetupData.ageRestrictions,
+                eventTags: meetupData.eventTags,
+                startTime: meetupData.startTime,
+                dateAndTime: meetupData.dateAndTime,
+                eventVenue: meetupData.eventVenue,
+                eventAddress: meetupData.eventAddress,
+                eventPricing: meetupData.eventPricing,
+                speakers: meetupData.speakers
+            });
 
-//              console.log(newMeetup.title);
-//              newMeetup.save();
-//         }
-//     } catch(error) {
-//         console.log("Error seeding the data", error);
-//     }
-// }
+             console.log(newMeetup.title);
+             newMeetup.save();
+        }
+    } catch(error) {
+        console.log("Error seeding the data", error);
+    }
+}
 
-// seedData();
+seedData();
 
 async function createEvent(newEvent) {
     try{
