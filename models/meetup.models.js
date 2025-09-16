@@ -34,6 +34,7 @@ const meetupSchema = new mongoose.Schema({
             type: String,
         },
     ],
+    startTime: {type: String},
     dateAndTime: {
          type: String,
          required: true
