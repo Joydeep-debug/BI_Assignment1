@@ -8,12 +8,15 @@
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above",
         "eventTags": ["marketing", "digital"],
-        "startTime": "Fri Aug 15 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Fri Aug 15 2025 at 10:00:00 AM to Fri Aug 15 2025 at 12:00:00 PM",
+        "eventDay": "Fri",
+        "eventDate": "Aug 15 2025",
+        "eventTime": "Fri Aug 15 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "Marketing City",
         "eventAddress": "789 Marketing Avenue, City",
         "eventPricing": 3000,
-        "speakers": ["Sarah Johnson", "Micheal Brown"]
+        "speakers": [{"name": "Sarah Johnson", "imageUrl": "https://images.ctfassets.net/az3stxsro5h5/6aEgnXgrnG02iiIuOCyTn/c75684b6b01b0fbcfe089b96f80f7bf2/Sarah_J_514px.jpg?w=500&h=487&fl=progressive&q=50&fm=jpg"},{"name": "Micheal Brown", "imageUrl": "https://townsquare.media/site/1133/files/2023/10/attachment-Michael-Brown.jpg?w=980&q=75"}]
     },
     {
         "title": "Tech Conference",
@@ -24,12 +27,15 @@
         "dressCode": "Smart casual",
         "ageRestrictions":"18 and above",
         "eventTags": ["technology", "networking"],
-        "startTime": "Mon Aug 18 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Mon Aug 18 2025 at 10:00:00 AM to Mon Aug 18 2025 at 12:00:00 PM",
+        "eventDay": "Mon",
+        "eventDate": "Aug 18 2025",
+        "eventTime": "Mon Aug 18 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "Silicon Valley Center",
         "eventAddress": "2406 N First Street office building, Silicon Valley Center",
         "eventPricing": 3000,
-        "speakers": ["Mukesh Jain", "Ranjan Bhasin"]
+        "speakers": [{"name": "Mukesh Jain", "imageUrl": "https://digitalconfex.com/wp-content/uploads/2023/09/Mukesh-Jain.webp"}, {"name": "Ranjan Bhasin", "imageUrl": "https://digitalconfex.com/wp-content/uploads/2023/08/Ranjan-Bhasin-IT-Speaker.webp"}]
     },
     {
         "title": "Design Workshop",
@@ -40,12 +46,15 @@
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above",
         "eventTags": ["innovation", "creativity"],
-        "startTime": "Thur Aug 21 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Thur Aug 21 2025 at 10:00:00 AM to Thur Aug 21 2025 at 12:00:00 PM",
+        "eventDay": "Thur",
+        "eventDate": "Aug 21 2025",
+        "eventTime": "Thur Aug 21 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "Designing City",
         "eventAddress": "10/2A, Nepal Bhattacharya St, Anami Sangha, Kalighat, Kolkata",
         "eventPricing": 5000,
-        "speakers": ["Dr Andreas Braun", "Dr Alexander Gelner"]
+        "speakers": [{"name": "Dr Andreas Braun", "imageUrl": "https://assets.paperjam.lu/xcrop/240/48/809/810/600/400/aHR0cHM6Ly9tYWlzb24tbW9kZXJuZS1zYWxlc2ZvcmNlLWNvbW11bml0eS5zMy1ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9iaW9ncmFwaHlfcHJvZmlsZS8xNDg2ODAyMTIwLnBuZw=="}, {"name": "Dr Alexander Gelner", "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQEYR_GqHiuMzw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1662649926669?e=2147483647&v=beta&t=J_l4L9TqYetOueLOrK8FUsjS4-c3zcOPSBuM6ra8GbA"}]
     },
     {
         "title": "Photography Workshop",
@@ -56,12 +65,15 @@
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above",
         "eventTags": ["portrait", "landscape"],
-        "startTime": "Fri Aug 22 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Fri Aug 22 2025 at 10:00:00 AM to Fri Aug 22 2025 at 12:00:00 PM",
+        "eventDay": "Fri",
+        "eventDate": "Aug 22 2025",
+        "eventTime": "Fri Aug 22 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "Galiff Street",
         "eventAddress": "Photography Institute Kolkata, West Bengal",
         "eventPricing": 2000,
-        "speakers": ["Danielle Feinberg", "Jimmy Chin"]
+        "speakers": [{"name": "Danielle Feinberg", "imageUrl": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/94bf9a9247faf637b3e070de00c7913daa34c74b_254x191.jpg?w=255"}, {"name": "Jimmy Chin", "imageUrl": "https://pspeakers.com/wp-content/uploads/2024/09/Jimmy-Chin-Conference-Speaker-by-Promotivate-Speaker-Agency.webp"}]
     },
     {
         "title": "Data Analytics Seminar",
@@ -72,12 +84,15 @@
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above",
         "eventTags": ["data", "analytics"],
-        "startTime": "Mon Aug 25 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Mon Aug 25 2025 at 10:00:00 AM to Mon Aug 25 2025 at 12:00:00 PM",
+        "eventDay": "Mon",
+        "eventDate": "Aug 25 2025",
+        "eventTime": "Mon Aug 25 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "IIMT Bhubaneswar",
         "eventAddress": "Interscience Institute of Managements Technology, Kantabada, Dist. Khorda, Bhubaneswar, Odisha.",
         "eventPricing": 3000,
-        "speakers": ["Melissa Hollis", "Carrie Beam"]
+        "speakers": [{"name": "Melissa Hollis", "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQEBzdrCzAVbhQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1608689250746?e=2147483647&v=beta&t=g0BR1XcJId1rt6TGmtg3Zcjn6EsYUcRUytxglez4avo"}, {"name": "Carrie Beam", "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGrWwiTaZnt7g/profile-displayphoto-scale_200_200/B56ZhJGAvrHQAg-/0/1753572972494?e=2147483647&v=beta&t=wLAvWD1cCqWLgMJN13wWhZ2JROPscPWVQ9Pjp9ufs_o"}]
     },
     {
         "title": "Business Workshop",
@@ -88,11 +103,14 @@
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above",
         "eventTags": ["finance", "leadership"],
-        "startTime": "Wed Aug 27 2025 · 10:00:00 AM IST",
-        "dateAndTime": "Wed Aug 27 2025 at 10:00:00 AM to Wed Aug 27 2025 at 12:00:00 PM",
+        "eventDay": "Wed",
+        "eventDate": "Aug 27 2025",
+        "eventTime": "Wed Aug 27 2025 · 10:00:00 AM IST",
+        "startTime": "10:00:00 AM",
+        "endTime": "12:00:00 PM",
         "eventVenue": "Park Hotel",
         "eventAddress": "17, Park St, Taltala, Kolkata, West Bengal",
         "eventPricing": 2000,
-        "speakers": ["Adar Poonawala", "Amrita Haldipur"]
+        "speakers": [{"name": "Adar Poonawala", "imageUrl": "https://aspenideasfestival.imgix.net/75ab0504-bde9-4aea-81f2-e8e44414a7ec/AIF24_Poonawalla_Adar.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=2837%2C0%2C2816%2C2816"}, {"name": "Amrita Haldipur", "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFIhpF72PMgug/profile-displayphoto-scale_200_200/B4DZkftFynIcAc-/0/1757173538724?e=2147483647&v=beta&t=yKwqVFi9cR6N5BTY0jDUrt7ZcgopWodrK5oDnWswIDc"}]
     }
 ]
