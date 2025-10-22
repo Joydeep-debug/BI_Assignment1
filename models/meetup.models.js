@@ -35,7 +35,7 @@ const meetupSchema = new mongoose.Schema({
         },
     ],
     startTime: {type: String},
-    dateAndTime: {
+    eventTime: {
          type: String,
          required: true
     },
@@ -52,8 +52,14 @@ const meetupSchema = new mongoose.Schema({
     },
     speakers: [
         {
-            type: String,
-            required: true
+            name: {
+                type: String,
+                required: true
+            },
+            imageUrl: {
+                type: String,
+                required: true
+            }
         }
     ]
 },
